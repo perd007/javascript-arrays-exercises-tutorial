@@ -6,5 +6,6 @@ function generateRandomArray()
 	return auxArray;	
 }
 let myStupidArray = generateRandomArray();
-
+let theLastOne = myStupidArray[myStupidArray.length - 1];
 //Your code here
+console.log(theLastOne);

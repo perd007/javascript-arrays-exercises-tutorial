@@ -10,3 +10,8 @@ let tasks = [
 ];
 
 //your code here
+let newArray=tasks.filter(function(tarea){
+	if(tarea.done==true) return tarea.done;
+})
+
+console.log(newArray);
